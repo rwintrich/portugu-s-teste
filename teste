@@ -1,0 +1,32 @@
+# portugu-s-teste
+
+print('Olá. Você está prestes a fazer uma prova de Português. Boa sorte!!')
+print('Primeira questão:')
+print('Qual figura de linguagem está presente na frase "Li Ruth Rocha apenas uma vez."?')
+input()
+if input == 'Metonímia' or 'Metonimia' or 'metonímia' or 'metonimia':
+    print('Resposta certa.')
+else:
+    print('Resposta errada.')
+
+print('Segunda questão:')
+print('Qual das figuras de linguagem é um exagero intencional com a finalidade de tornar a ideia mais expressiva?')
+input()
+if input == 'Hipérbole' or 'Hiperbole' or 'hipérbole' or 'hiperbole':
+    print('Resposta certa.')
+else:
+    print('Resposta errada.')
+
+print('Terceira questão:')
+print('O eufemismo pode ser representado através de qual frase?')
+
+print('A: De tão feia que ela é chega a ser linda.')
+print('B: Estou fedido como um macaco.')
+print('C: Após a queda, perna quebrada.')
+print('D: Hoje estou desprovido de inteligência!')
+print('E: Minha boca é um túmulo.')
+input()
+if input == 'D' or 'd':
+    print('Resposta certa.')
+else:
+    print('Resposta errada.')
