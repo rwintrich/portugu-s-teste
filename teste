@@ -1,13 +1,14 @@
 # portugu-s-teste
+# -*- coding: utf-8 -*-
 
 print('Olá. Você está prestes a fazer uma prova de Português. Boa sorte!!')
 print('Primeira questão:')
-print('Qual figura de linguagem está presente na frase "Li Ruth Rocha apenas uma vez."?')
-input()
-if input == 'Metonímia' or 'Metonimia' or 'metonímia' or 'metonimia':
+resposta = input('Qual figura de linguagem está presente na frase Li Ruth Rocha apenas uma vez.?\n')
+if resposta in ('Metonímia','Metonimia','metonímia' ,'metonimia'):
     print('Resposta certa.')
 else:
     print('Resposta errada.')
+
 
 print('Segunda questão:')
 print('Qual das figuras de linguagem é um exagero intencional com a finalidade de tornar a ideia mais expressiva?')
